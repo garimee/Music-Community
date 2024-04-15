@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box1 {
+    width: 448px;
+    height: 375px;
+    background-color: darkolivegreen;
+    border-radius: 30px;
+    position: relative;
+    left: 50px;
+    box-shadow: 8px 8px 9px 4px rgba(0, 0, 0, 0.4);
+}
