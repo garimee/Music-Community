@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.mfmenu, .gfmenu {
+.mfmenu, .gfmenu, .sgufmenu {
     position: relative;
 }
 
@@ -20,7 +20,12 @@
     left: 685px;
 }
 
-.mfmenu, .gfmenu li {
+.sgufmenu ul {
+    position: absolute;
+    bottom: 0;
+}
+
+* li {
     display: inline;
     color: #575050;
 }
