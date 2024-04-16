@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background: rgb(245, 245, 245, 0.15);
+}
+
 .hmenu {
     text-align: center;
 }
@@ -15,7 +19,6 @@ ul {
 .menu {
     width: 1024px;
     height: 105px;
-    background-color: aliceblue;
     padding-top: 40px;
     margin: auto;
 }
