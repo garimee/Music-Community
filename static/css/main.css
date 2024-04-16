@@ -29,7 +29,7 @@ body {
 .search {
     position: relative;
     top: 125px;
-    left: 602px;
+    left: 595px;
 }
 
 .bi-search {
@@ -47,12 +47,45 @@ body {
     background-color: transparent;
 }
 
-.box1 {
+#box-content p {
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 800;
+    font-size: 23px;
+}
+
+#box-content p:first-child {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.box1, .box2, .box3, .box4 {
     width: 448px;
     height: 375px;
     background-color: white;
     border-radius: 30px;
-    position: relative;
-    left: 50px;
     box-shadow: 8px 8px 9px 4px rgba(0, 0, 0, 0.4);
+}
+
+.box1 {
+    position: relative;
+    top: 160px;
+    left: 525px;
+}
+
+.box2 {
+    position: relative;
+    top: -215px;
+    left: 1010px;
+}
+
+.box3 {
+    position: relative;
+    bottom: 150px;
+    left: 525px;
+}
+
+.box4 {
+    position: relative;
+    left: 1010px;
+    bottom: 525px;
 }

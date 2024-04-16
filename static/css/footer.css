@@ -4,20 +4,35 @@
     box-sizing: border-box;
 }
 
-#fmenu {
-    width: 1024px;
-    height: 100px;
-    color: rgb(87, 80, 80);
-    font-size: 18px;
-    font-family: "Nanum Gothic", sans-serif;
-    font-weight: 700;
-    line-height: 45px;
-    text-align: center;
+.mfmenu, .gfmenu {
+    position: relative;
 }
 
-b {
-    font-size: 19px;
+.mfmenu ul {
+    position: absolute;
+    bottom: 0;
+    left: 685px;
+}
+
+.gfmenu ul {
+    position: absolute;
+    top: 1024px;
+    left: 685px;
+}
+
+.mfmenu, .gfmenu li {
+    display: inline;
+    color: #575050;
+}
+
+.import {
     font-family: "Nanum Gothic", sans-serif;
     font-weight: 800;
-    text-align: center;
+    font-size: 17px;
+}
+
+.nimport {
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
 }
