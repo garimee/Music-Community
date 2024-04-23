@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.myPage {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.detail {
+    width: 30%;
+    height: 10%;
+    margin-left: 100px;
+    padding-top: 20px;
+}
+
+.detail p {
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.detail span {
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.comment1 {
+    margin-left: 5px;
+}
+
+.right-click {
+    position: absolute;
+    top: 145px;
+    left: 1015px;
+}
+
+.bi-bell {
+    font-size: 40px;
+}
+
+button {
+    width: 200px;
+    height: 80px;
+    border-radius: 10px;
+    border: 0;
+    background-color: black;
+    color: white;
+    margin-left: 30px;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.middle-click {
+    margin-top: 90px;
+    margin-left: 55px;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    border-bottom: 2px solid black;
+    width: 810px;
+    display: flex;
+    justify-content: center;
+}
+
+.content2 {
+    margin-right: 60px;
+    margin-bottom: 10px;
+}
+
+.v-line {
+    border-right: 2px solid black;
+    margin-right: 65px;
+}
+
+
+.list-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: start;
+    position: absolute;
+    left: 525px;
+    top: 335px;
+}
+
+.list-content li {
+    width: 810px;
+    list-style: none;
+    border-bottom: 2px solid #dcdcdc;
+    padding-top: 30px;
+    margin-right: 500px;
+}
